@@ -1,0 +1,61 @@
+.Actividad-form-container{
+    display: grid;
+    padding: 20px;
+}
+
+.Actividad-form-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Form-actividad{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-group{
+    width: 100%;
+    margin: 5px auto;
+}
+
+.form-input{
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn-form{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.btn-sub{
+    background-color: #049904;
+    transition: all 0.5s;
+}
+
+.btn-sub:hover{
+    background-color: #025a02;
+}
+
+.btn-can{
+    background-color: #c70b05;
+    transition: all 0.5s;
+}
+
+.btn-can:hover{
+    background-color: #750400;
+}

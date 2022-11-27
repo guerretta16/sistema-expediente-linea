@@ -1,0 +1,44 @@
+.Alert-message-container{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.Alert-message-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.Alert-message-btns {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.Alert-message-btn {
+    background-color: #1665f7;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 7px;
+    transition: all 0.5s;
+}
+
+.Alert-message-btn:hover{
+    background-color: #0d347d;
+}
+
+.Alert-message-btn-red {
+    background-color: #ed1c2a;
+}
+
+.Alert-message-btn-red:hover{
+    background-color: #96111a;
+}
+
+.Alert-message-description {
+    font-size: 17px;
+}

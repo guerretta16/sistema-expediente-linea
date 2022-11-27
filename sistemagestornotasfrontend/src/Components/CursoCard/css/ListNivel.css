@@ -1,0 +1,13 @@
+.Niveles-list_item{
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+.Niveles-list_item:hover{
+    background-color: #fff;
+    color: #287463;
+}

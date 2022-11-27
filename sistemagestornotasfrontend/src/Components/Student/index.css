@@ -1,0 +1,9 @@
+.formCustom__double {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+    flex-wrap: wrap;
+}

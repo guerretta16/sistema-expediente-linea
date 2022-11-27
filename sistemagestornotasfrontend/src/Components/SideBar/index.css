@@ -1,0 +1,100 @@
+.Sidebar-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    width: 240px;
+    height: 100%;
+    padding: 10px 20px;
+    background-color: #287463;
+    transition: all 0.5s;
+}
+
+.SBclose{
+    width: 45px;
+    height: 100%;
+    background-color: #287463;
+    transition: all 0.5s;
+}
+
+.Sidebar-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    cursor: pointer;
+    width: 80%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: 5%;
+    left: 8%;
+    background-color: #36a290;
+}
+
+.Sidebar-btn, .SBactive{
+    width: 25px;
+}
+
+.Sidebar-btn::before,
+.Sidebar-btn::after,
+.Sidebar-btn .Sidebar-btn-l,
+.SBactive::before,
+.SBactive::after,
+.SBactive .Sidebar-btn-l { 
+    background: #fff;
+    content: "";
+    display: block;
+    height: 3px;
+    border-radius: 3px;
+    margin: 5px 0;
+    transition: 0.5s;
+}
+
+.SBactive::before{
+    transform: translateY(8px) rotate(135deg);
+}
+
+.SBactive::after{
+    transform: translateY(-8px) rotate(-135deg);
+}
+
+.SBactive .Sidebar-btn-l{
+    transform: scale(0);
+}
+
+.SBcontent{
+    left: 5%;
+    background: none;
+}
+
+.Sidebar-user{
+    width: 100%;
+    height: 8%;
+    position: absolute;
+    bottom: 5px;
+    left: 25%;
+}
+
+.Sidebar-logout{
+    cursor: pointer;
+    background-image: url('../../assets/icon/logout-512.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+.Sidebar-home{
+    text-align: right;
+    width: 80%;
+    font-weight: 500;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+.Sidebar-home:hover{
+    color: #287463;
+    background-color: #fff;
+}

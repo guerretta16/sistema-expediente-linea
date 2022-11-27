@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PoppinsStandard";
+  src: url('./assets/fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: "PoppinsBold";
+    src: url('./assets/fonts/poppins/Poppins-Bold.ttf')
+}
+
+*,
+*::after,
+*::before{
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #dff0d8;
+}

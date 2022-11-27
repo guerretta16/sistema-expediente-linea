@@ -1,0 +1,15 @@
+.Cursos-doc-container{
+    width: 85%;
+    padding: 20px;
+}
+
+.Curso-nivel-title{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    background-color: #287463;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}

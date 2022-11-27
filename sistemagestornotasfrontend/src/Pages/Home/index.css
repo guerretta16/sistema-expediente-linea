@@ -1,0 +1,15 @@
+.Home-container{
+    padding: 20px;
+    text-align: center;
+}
+
+.Home-title{
+    margin: 45px 0px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.Home-info{
+    font-size: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('../../assets/fonts/poppins/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: "PoppinsRegular";
+    src: url('../../assets/fonts/poppins/Poppins-Medium.ttf')
+}
+
+.code {
+    margin-top: 30px;
+    font-family: "Poppins";
+    font-size: 60px;
+}
+
+.message {
+    margin-top: 10px;
+    font-family: "PoppinsRegular";
+    color: #333;
+}

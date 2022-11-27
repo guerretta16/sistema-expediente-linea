@@ -1,0 +1,45 @@
+.footer{
+    padding: 20px 0px;
+}
+
+.footer-grid{
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer-line{
+    width: 70%;
+    height: 1px;
+    margin: auto;
+    border: 0.25px solid #cecece;
+    margin-bottom: 25px;
+}
+
+.footer-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-foo{
+    object-fit: contain;
+    opacity: 0.8;
+}
+
+#imgMini{
+    height: 80px;
+    border-radius: 5px;
+}
+
+#imgUes{
+    height: 99px;
+}
+
+.footer-info{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
